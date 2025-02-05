@@ -1,17 +1,9 @@
-let students =30 ;
-//students =students + 1 ;
-//students= students - 1 ;
-//students = students * 2 ;
-//students = students / 2 ;          
-//students =students % 2 ;    
-//students = students ** 2 ;
-//students += 3 ;
-//students -=5;
-//students *= 7 ;
-//students **= 7 ;
-//students /= 2 ;
-//students %= 2 ;
-//students ++ ;
-//students -- ;
+/*let username ;
+username = window.prompt("what is you user name")
+console.log(username);*/
+let  username ;
+document.getElementById("myuser").onclick = function(){
+ username = document.getElementById("user").value;
+ document.getElementById("y1").textContent = `Hello ${username}`
 
-console.log(students);
+}
