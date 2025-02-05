@@ -1,16 +1,19 @@
-// const = a varible that can't be changed 
-const pi = 3.14159 ;
-let radius ;
-let circumference ;
+// COUNTER PROGRAM  
+const decreasebtn = document.getElementById("decreasebtn");
+const resetbtn = document.getElementById("resetbtn");
+const increasebtn = document.getElementById("increasebtn");
+const countlabble = document.getElementById("countlabble");
+let count = 0 ;
 
-document.getElementById("mysubmit").onclick = function()
-{
-    radius = document.getElementById("mytext").value ;
-    radius = Number(radius);
-    circumference = 2 * pi * radius ;
-    document.getElementById("h3").textContent = circumference ;
-    
+decreasebtn.onclick = function(){
+    count -- ;
+    countlabble.textContent = count ;
 }
-
-
-
+resetbtn.onclick = function(){
+    count = 0  ;
+    countlabble.textContent = count ;
+}
+increasebtn.onclick = function(){
+    count ++ ;
+    countlabble.textContent = count ;
+}
