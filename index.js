@@ -1,7 +1,17 @@
-let fullname ="Mohamed Medhat ";
-let age =22;
-let student = true ;
+let students =30 ;
+//students =students + 1 ;
+//students= students - 1 ;
+//students = students * 2 ;
+//students = students / 2 ;          
+//students =students % 2 ;    
+//students = students ** 2 ;
+//students += 3 ;
+//students -=5;
+//students *= 7 ;
+//students **= 7 ;
+//students /= 2 ;
+//students %= 2 ;
+//students ++ ;
+//students -- ;
 
-document.getElementById("p1").textContent = `My Nmae Is ${fullname}`
-document.getElementById("p2").textContent = `My Age Is ${age} Years Old`;
-document.getElementById("p3").textContent = `Iam Student ? ${student} !`;
+console.log(students);
